@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  
+  
+  <parameter name="browser" value="chrome"/>
+  
+    <classes>
+      <class name="test_cases.TC001_AccountRegistartionTest"/>
+      <class name="test_cases.TC002_loginPage"/>
+      <class name="test_cases.TC003_Verify_Search_button"/>
+      
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
