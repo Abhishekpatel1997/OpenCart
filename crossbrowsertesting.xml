@@ -7,14 +7,16 @@
    <classes>
       <class name="test_cases.TC001_AccountRegistartionTest"/>
       <class name="test_cases.TC002_loginPage"/>
+      <class name="test_cases.TC003_Verify_Search_button"/>
     </classes>
   </test> <!-- Test -->
   
   <test name="EdgeTest">
   <parameter name="browser" value="edge"/>
    <classes>
-      <class name="test_cases.TC001_AccountRegistartionTest"/>
+     <class name="test_cases.TC001_AccountRegistartionTest"/>
       <class name="test_cases.TC002_loginPage"/>
+      <class name="test_cases.TC003_Verify_Search_button"/>>
     </classes>
   </test> <!-- Test -->
   
@@ -23,6 +25,7 @@
    <classes>
       <class name="test_cases.TC001_AccountRegistartionTest"/>
       <class name="test_cases.TC002_loginPage"/>
+      <class name="test_cases.TC003_Verify_Search_button"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

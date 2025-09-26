@@ -21,7 +21,7 @@
     <configuration>
     <suiteXmlFiles>
     
-    <suiteXmlFile>testng.xml</suiteXmlFile>
+    <suiteXmlFile>crossbrowsertesting.xml</suiteXmlFile>
     
     </suiteXmlFiles>
     </configuration>
