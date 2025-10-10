@@ -2,6 +2,10 @@
 
 <suite name="Suite">
 
+<listeners>
+    <listener class-name="utilities.ExtentReportListener"/>
+</listeners>
+
   <test name="ChromeTest">
   <parameter name="browser" value="chrome"/>
    <classes>

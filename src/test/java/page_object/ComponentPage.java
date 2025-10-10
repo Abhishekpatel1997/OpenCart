@@ -13,7 +13,7 @@ public class ComponentPage extends BasePage {
 	}
 	
 	@FindBy(xpath="//a[normalize-space()='Components']") WebElement componentMenu;
-	@FindBy(xpath="//ul[@class='list-unstyled']//a[contains(text(),'Monitors')]") WebElement btnMonitor;
+	@FindBy(xpath="//a[normalize-space()='Monitors (2)']") WebElement btnMonitor;
 	@FindBy(xpath="//h2[normalize-space()='Monitors']") WebElement cnfMonitorMessage;
 	
 	public void hoverAndClickSubmenu() {

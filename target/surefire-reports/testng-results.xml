@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-09-26T12:05:50 IST" name="Suite" finished-at="2025-09-26T12:06:41 IST" duration-ms="51362">
+  <suite started-at="2025-10-08T15:42:01 IST" name="Suite" finished-at="2025-10-08T15:42:13 IST" duration-ms="11893">
     <groups>
     </groups>
-    <test started-at="2025-09-26T12:05:50 IST" name="ChromeTest" finished-at="2025-09-26T12:06:03 IST" duration-ms="12771">
+    <test started-at="2025-10-08T15:42:01 IST" name="Test" finished-at="2025-10-08T15:42:13 IST" duration-ms="11893">
       <class name="test_cases.TC003_Verify_Search_button">
-        <test-method is-config="true" signature="SetUp(java.lang.String)[pri:0, instance:test_cases.TC003_Verify_Search_button@2034b64c]" started-at="2025-09-26T12:05:59 IST" name="SetUp" finished-at="2025-09-26T12:06:00 IST" duration-ms="1648" status="PASS">
+        <test-method is-config="true" signature="SetUp(java.lang.String)[pri:0, instance:test_cases.TC003_Verify_Search_button@2f62ea70]" started-at="2025-10-08T15:42:09 IST" name="SetUp" finished-at="2025-10-08T15:42:11 IST" duration-ms="1652" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,17 +18,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUp -->
-        <test-method signature="Verify_Login_Page()[pri:0, instance:test_cases.TC003_Verify_Search_button@2034b64c]" started-at="2025-09-26T12:06:00 IST" name="Verify_Login_Page" finished-at="2025-09-26T12:06:02 IST" duration-ms="2247" status="PASS">
+        <test-method signature="Verify_Login_Page()[pri:0, instance:test_cases.TC003_Verify_Search_button@2f62ea70]" started-at="2025-10-08T15:42:11 IST" name="Verify_Login_Page" finished-at="2025-10-08T15:42:13 IST" duration-ms="2051" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Verify_Login_Page -->
-        <test-method is-config="true" signature="Tearup()[pri:0, instance:test_cases.TC003_Verify_Search_button@2034b64c]" started-at="2025-09-26T12:06:02 IST" name="Tearup" finished-at="2025-09-26T12:06:03 IST" duration-ms="232" status="PASS">
+        <test-method is-config="true" signature="Tearup()[pri:0, instance:test_cases.TC003_Verify_Search_button@2f62ea70]" started-at="2025-10-08T15:42:13 IST" name="Tearup" finished-at="2025-10-08T15:42:13 IST" duration-ms="194" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Tearup -->
       </class> <!-- test_cases.TC003_Verify_Search_button -->
       <class name="test_cases.TC002_loginPage">
-        <test-method is-config="true" signature="SetUp(java.lang.String)[pri:0, instance:test_cases.TC002_loginPage@58cbafc2]" started-at="2025-09-26T12:05:55 IST" name="SetUp" finished-at="2025-09-26T12:05:57 IST" duration-ms="1797" status="PASS">
+        <test-method is-config="true" signature="SetUp(java.lang.String)[pri:0, instance:test_cases.TC002_loginPage@7a1234bf]" started-at="2025-10-08T15:42:06 IST" name="SetUp" finished-at="2025-10-08T15:42:08 IST" duration-ms="1749" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -39,17 +39,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUp -->
-        <test-method signature="Verify_Login_Page()[pri:0, instance:test_cases.TC002_loginPage@58cbafc2]" started-at="2025-09-26T12:05:57 IST" name="Verify_Login_Page" finished-at="2025-09-26T12:05:58 IST" duration-ms="1481" status="PASS">
+        <test-method signature="Verify_Login_Page()[pri:0, instance:test_cases.TC002_loginPage@7a1234bf]" started-at="2025-10-08T15:42:08 IST" name="Verify_Login_Page" finished-at="2025-10-08T15:42:09 IST" duration-ms="1357" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Verify_Login_Page -->
-        <test-method is-config="true" signature="Tearup()[pri:0, instance:test_cases.TC002_loginPage@58cbafc2]" started-at="2025-09-26T12:05:58 IST" name="Tearup" finished-at="2025-09-26T12:05:59 IST" duration-ms="193" status="PASS">
+        <test-method is-config="true" signature="Tearup()[pri:0, instance:test_cases.TC002_loginPage@7a1234bf]" started-at="2025-10-08T15:42:09 IST" name="Tearup" finished-at="2025-10-08T15:42:09 IST" duration-ms="206" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Tearup -->
       </class> <!-- test_cases.TC002_loginPage -->
       <class name="test_cases.TC001_AccountRegistartionTest">
-        <test-method is-config="true" signature="SetUp(java.lang.String)[pri:0, instance:test_cases.TC001_AccountRegistartionTest@3e27ba32]" started-at="2025-09-26T12:05:50 IST" name="SetUp" finished-at="2025-09-26T12:05:53 IST" duration-ms="2765" status="PASS">
+        <test-method is-config="true" signature="SetUp(java.lang.String)[pri:0, instance:test_cases.TC001_AccountRegistartionTest@466276d8]" started-at="2025-10-08T15:42:01 IST" name="SetUp" finished-at="2025-10-08T15:42:04 IST" duration-ms="2446" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -60,145 +60,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUp -->
-        <test-method signature="Verify_Account_RegistartionPage()[pri:0, instance:test_cases.TC001_AccountRegistartionTest@3e27ba32]" started-at="2025-09-26T12:05:53 IST" name="Verify_Account_RegistartionPage" finished-at="2025-09-26T12:05:55 IST" duration-ms="2136" status="PASS">
+        <test-method signature="Verify_Account_RegistartionPage()[pri:0, instance:test_cases.TC001_AccountRegistartionTest@466276d8]" started-at="2025-10-08T15:42:04 IST" name="Verify_Account_RegistartionPage" finished-at="2025-10-08T15:42:06 IST" duration-ms="1988" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Verify_Account_RegistartionPage -->
-        <test-method is-config="true" signature="Tearup()[pri:0, instance:test_cases.TC001_AccountRegistartionTest@3e27ba32]" started-at="2025-09-26T12:05:55 IST" name="Tearup" finished-at="2025-09-26T12:05:55 IST" duration-ms="222" status="PASS">
+        <test-method is-config="true" signature="Tearup()[pri:0, instance:test_cases.TC001_AccountRegistartionTest@466276d8]" started-at="2025-10-08T15:42:06 IST" name="Tearup" finished-at="2025-10-08T15:42:06 IST" duration-ms="197" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Tearup -->
       </class> <!-- test_cases.TC001_AccountRegistartionTest -->
-    </test> <!-- ChromeTest -->
-    <test started-at="2025-09-26T12:06:03 IST" name="EdgeTest" finished-at="2025-09-26T12:06:19 IST" duration-ms="16528">
-      <class name="test_cases.TC003_Verify_Search_button">
-        <test-method is-config="true" signature="SetUp(java.lang.String)[pri:0, instance:test_cases.TC003_Verify_Search_button@7ce69770]" started-at="2025-09-26T12:06:14 IST" name="SetUp" finished-at="2025-09-26T12:06:16 IST" duration-ms="1825" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[edge]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SetUp -->
-        <test-method signature="Verify_Login_Page()[pri:0, instance:test_cases.TC003_Verify_Search_button@7ce69770]" started-at="2025-09-26T12:06:16 IST" name="Verify_Login_Page" finished-at="2025-09-26T12:06:19 IST" duration-ms="2868" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Verify_Login_Page -->
-        <test-method is-config="true" signature="Tearup()[pri:0, instance:test_cases.TC003_Verify_Search_button@7ce69770]" started-at="2025-09-26T12:06:19 IST" name="Tearup" finished-at="2025-09-26T12:06:19 IST" duration-ms="205" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Tearup -->
-      </class> <!-- test_cases.TC003_Verify_Search_button -->
-      <class name="test_cases.TC002_loginPage">
-        <test-method is-config="true" signature="SetUp(java.lang.String)[pri:0, instance:test_cases.TC002_loginPage@7ce026d3]" started-at="2025-09-26T12:06:11 IST" name="SetUp" finished-at="2025-09-26T12:06:13 IST" duration-ms="1815" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[edge]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SetUp -->
-        <test-method signature="Verify_Login_Page()[pri:0, instance:test_cases.TC002_loginPage@7ce026d3]" started-at="2025-09-26T12:06:13 IST" name="Verify_Login_Page" finished-at="2025-09-26T12:06:14 IST" duration-ms="1467" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Verify_Login_Page -->
-        <test-method is-config="true" signature="Tearup()[pri:0, instance:test_cases.TC002_loginPage@7ce026d3]" started-at="2025-09-26T12:06:14 IST" name="Tearup" finished-at="2025-09-26T12:06:14 IST" duration-ms="205" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Tearup -->
-      </class> <!-- test_cases.TC002_loginPage -->
-      <class name="test_cases.TC001_AccountRegistartionTest">
-        <test-method is-config="true" signature="SetUp(java.lang.String)[pri:0, instance:test_cases.TC001_AccountRegistartionTest@1caa0244]" started-at="2025-09-26T12:06:03 IST" name="SetUp" finished-at="2025-09-26T12:06:09 IST" duration-ms="5798" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[edge]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SetUp -->
-        <test-method signature="Verify_Account_RegistartionPage()[pri:0, instance:test_cases.TC001_AccountRegistartionTest@1caa0244]" started-at="2025-09-26T12:06:09 IST" name="Verify_Account_RegistartionPage" finished-at="2025-09-26T12:06:11 IST" duration-ms="2139" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Verify_Account_RegistartionPage -->
-        <test-method is-config="true" signature="Tearup()[pri:0, instance:test_cases.TC001_AccountRegistartionTest@1caa0244]" started-at="2025-09-26T12:06:11 IST" name="Tearup" finished-at="2025-09-26T12:06:11 IST" duration-ms="200" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Tearup -->
-      </class> <!-- test_cases.TC001_AccountRegistartionTest -->
-    </test> <!-- EdgeTest -->
-    <test started-at="2025-09-26T12:06:19 IST" name="FireTest" finished-at="2025-09-26T12:06:41 IST" duration-ms="22028">
-      <class name="test_cases.TC003_Verify_Search_button">
-        <test-method is-config="true" signature="SetUp(java.lang.String)[pri:0, instance:test_cases.TC003_Verify_Search_button@7e057f43]" started-at="2025-09-26T12:06:34 IST" name="SetUp" finished-at="2025-09-26T12:06:37 IST" duration-ms="3586" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SetUp -->
-        <test-method signature="Verify_Login_Page()[pri:0, instance:test_cases.TC003_Verify_Search_button@7e057f43]" started-at="2025-09-26T12:06:37 IST" name="Verify_Login_Page" finished-at="2025-09-26T12:06:40 IST" duration-ms="2687" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Verify_Login_Page -->
-        <test-method is-config="true" signature="Tearup()[pri:0, instance:test_cases.TC003_Verify_Search_button@7e057f43]" started-at="2025-09-26T12:06:40 IST" name="Tearup" finished-at="2025-09-26T12:06:41 IST" duration-ms="1229" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Tearup -->
-      </class> <!-- test_cases.TC003_Verify_Search_button -->
-      <class name="test_cases.TC002_loginPage">
-        <test-method is-config="true" signature="SetUp(java.lang.String)[pri:0, instance:test_cases.TC002_loginPage@6e9a5ed8]" started-at="2025-09-26T12:06:27 IST" name="SetUp" finished-at="2025-09-26T12:06:31 IST" duration-ms="3823" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SetUp -->
-        <test-method signature="Verify_Login_Page()[pri:0, instance:test_cases.TC002_loginPage@6e9a5ed8]" started-at="2025-09-26T12:06:31 IST" name="Verify_Login_Page" finished-at="2025-09-26T12:06:33 IST" duration-ms="1436" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Verify_Login_Page -->
-        <test-method is-config="true" signature="Tearup()[pri:0, instance:test_cases.TC002_loginPage@6e9a5ed8]" started-at="2025-09-26T12:06:33 IST" name="Tearup" finished-at="2025-09-26T12:06:34 IST" duration-ms="1043" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Tearup -->
-      </class> <!-- test_cases.TC002_loginPage -->
-      <class name="test_cases.TC001_AccountRegistartionTest">
-        <test-method is-config="true" signature="SetUp(java.lang.String)[pri:0, instance:test_cases.TC001_AccountRegistartionTest@268f106e]" started-at="2025-09-26T12:06:19 IST" name="SetUp" finished-at="2025-09-26T12:06:24 IST" duration-ms="4936" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SetUp -->
-        <test-method signature="Verify_Account_RegistartionPage()[pri:0, instance:test_cases.TC001_AccountRegistartionTest@268f106e]" started-at="2025-09-26T12:06:24 IST" name="Verify_Account_RegistartionPage" finished-at="2025-09-26T12:06:26 IST" duration-ms="2223" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Verify_Account_RegistartionPage -->
-        <test-method is-config="true" signature="Tearup()[pri:0, instance:test_cases.TC001_AccountRegistartionTest@268f106e]" started-at="2025-09-26T12:06:26 IST" name="Tearup" finished-at="2025-09-26T12:06:27 IST" duration-ms="1063" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Tearup -->
-      </class> <!-- test_cases.TC001_AccountRegistartionTest -->
-    </test> <!-- FireTest -->
+    </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

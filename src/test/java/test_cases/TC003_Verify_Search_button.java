@@ -24,7 +24,7 @@ public class TC003_Verify_Search_button extends BaseClass{
 	
 	Thread.sleep(1000);
 	MyAccountPage mc=new MyAccountPage(driver);
-	mc.SearchItem("iphone");
+	mc.SearchItem("iphoneeapple");
 	mc.Searchbtn();
 	
 	boolean cnfGetProduct=mc.GetProduct();

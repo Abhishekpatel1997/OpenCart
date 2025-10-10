@@ -10,3 +10,5 @@ C:\Users\Hp\eclipse-workspace\OpenCart\src\test\java\test_cases\TC002_loginPage.
 C:\Users\Hp\eclipse-workspace\OpenCart\src\test\java\test_cases\TC003_Verify_Search_button.java
 C:\Users\Hp\eclipse-workspace\OpenCart\src\test\java\test_cases\TC004_Verify_MouseHover_Component.java
 C:\Users\Hp\eclipse-workspace\OpenCart\src\test\java\test_cases\TC005_VerifyAllLinks.java
+C:\Users\Hp\eclipse-workspace\OpenCart\src\test\java\utilities\ExtentManager.java
+C:\Users\Hp\eclipse-workspace\OpenCart\src\test\java\utilities\ExtentReportListener.java

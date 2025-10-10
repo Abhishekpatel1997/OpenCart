@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <suite name="Suite">
+
+<listeners>
+    <listener class-name="utilities.ExtentReportListener"/>
+</listeners>
+
   <test thread-count="5" name="Test">
   
   
@@ -10,6 +15,7 @@
       <class name="test_cases.TC001_AccountRegistartionTest"/>
       <class name="test_cases.TC002_loginPage"/>
       <class name="test_cases.TC003_Verify_Search_button"/>
+      <class name="test_cases.TC004_Verify_MouseHover_Component"/>
       
       
     </classes>
