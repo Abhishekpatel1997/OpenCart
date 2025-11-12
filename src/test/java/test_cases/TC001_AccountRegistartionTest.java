@@ -19,9 +19,11 @@ public class TC001_AccountRegistartionTest extends BaseClass {
 	
 	
 	@Test
-	public void Verify_Account_RegistartionPage() {
+	public void Verify_Account_RegistartionPage() throws Exception {
 		HomePage hm=new HomePage(driver);
+		screenShot();
 		hm.myAccountButton();
+		
 		hm.registationButton();
 		
 		RegistrationPage rp=new RegistrationPage(driver);
@@ -40,6 +42,8 @@ public class TC001_AccountRegistartionTest extends BaseClass {
 		rp.RadioButton();
 		rp.CheckBox();
 		rp.ContinueButton();
+		
+		screenShot();
 		
 		String msgc=rp.GetConfirmMsg();
 		Assert.assertEquals(msgc, "Your Account Has Been Created!");

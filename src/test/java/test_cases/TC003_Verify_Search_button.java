@@ -10,7 +10,7 @@ import test_base.BaseClass;
 
 public class TC003_Verify_Search_button extends BaseClass{
 	@Test
-	public void Verify_Login_Page() throws InterruptedException 
+	public void Verify_Login_Page() throws Exception 
 	{
 	HomePage hp=new HomePage(driver);
 	hp.myAccountButton();
@@ -26,6 +26,7 @@ public class TC003_Verify_Search_button extends BaseClass{
 	MyAccountPage mc=new MyAccountPage(driver);
 	mc.SearchItem("iphoneeapple");
 	mc.Searchbtn();
+	screenShot();
 	
 	boolean cnfGetProduct=mc.GetProduct();
 	Assert.assertEquals(cnfGetProduct, true);
