@@ -16,6 +16,9 @@
       <class name="test_cases.TC002_loginPage"/>
       <class name="test_cases.TC003_Verify_Search_button"/>
       <class name="test_cases.TC004_Verify_MouseHover_Component"/>
+      <class name="test_cases.TC006_VerifyMyAccountOptionsDisplays"/>
+      <class name="test_cases.TC007_VerifyMenuOptionsHomePage"/>
+      <class name="test_cases.TC008_VerifyComponentDropDownOptionsHomePage"/>
       
       
     </classes>

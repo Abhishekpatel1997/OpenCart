@@ -7,13 +7,13 @@
   <test thread-count="5" name="Test(failed)" verbose="0">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="test_cases.TC003_Verify_Search_button">
+      <class name="test_cases.TC008_VerifyComponentDropDownOptionsHomePage">
         <methods>
-          <include name="Verify_Login_Page"/>
           <include name="Tearup"/>
           <include name="SetUp"/>
+          <include name="verifyOptions"/>
         </methods>
-      </class> <!-- test_cases.TC003_Verify_Search_button -->
+      </class> <!-- test_cases.TC008_VerifyComponentDropDownOptionsHomePage -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
