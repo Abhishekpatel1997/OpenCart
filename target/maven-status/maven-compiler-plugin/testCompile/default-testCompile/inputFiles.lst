@@ -1,7 +1,10 @@
 C:\Users\Hp\eclipse-workspace\OpenCart\src\test\java\page_object\BasePage.java
+C:\Users\Hp\eclipse-workspace\OpenCart\src\test\java\page_object\ComponentDropDown.java
 C:\Users\Hp\eclipse-workspace\OpenCart\src\test\java\page_object\ComponentPage.java
 C:\Users\Hp\eclipse-workspace\OpenCart\src\test\java\page_object\HomePage.java
 C:\Users\Hp\eclipse-workspace\OpenCart\src\test\java\page_object\LoginPage.java
+C:\Users\Hp\eclipse-workspace\OpenCart\src\test\java\page_object\MenuOptions.java
+C:\Users\Hp\eclipse-workspace\OpenCart\src\test\java\page_object\MyAccountOptionsDisplay.java
 C:\Users\Hp\eclipse-workspace\OpenCart\src\test\java\page_object\MyAccountPage.java
 C:\Users\Hp\eclipse-workspace\OpenCart\src\test\java\page_object\RegistrationPage.java
 C:\Users\Hp\eclipse-workspace\OpenCart\src\test\java\test_base\BaseClass.java
@@ -10,5 +13,8 @@ C:\Users\Hp\eclipse-workspace\OpenCart\src\test\java\test_cases\TC002_loginPage.
 C:\Users\Hp\eclipse-workspace\OpenCart\src\test\java\test_cases\TC003_Verify_Search_button.java
 C:\Users\Hp\eclipse-workspace\OpenCart\src\test\java\test_cases\TC004_Verify_MouseHover_Component.java
 C:\Users\Hp\eclipse-workspace\OpenCart\src\test\java\test_cases\TC005_VerifyAllLinks.java
+C:\Users\Hp\eclipse-workspace\OpenCart\src\test\java\test_cases\TC006_VerifyMyAccountOptionsDisplays.java
+C:\Users\Hp\eclipse-workspace\OpenCart\src\test\java\test_cases\TC007_VerifyMenuOptionsHomePage.java
+C:\Users\Hp\eclipse-workspace\OpenCart\src\test\java\test_cases\TC008_VerifyComponentDropDownOptionsHomePage.java
 C:\Users\Hp\eclipse-workspace\OpenCart\src\test\java\utilities\ExtentManager.java
 C:\Users\Hp\eclipse-workspace\OpenCart\src\test\java\utilities\ExtentReportListener.java

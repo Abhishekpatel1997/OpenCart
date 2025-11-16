@@ -1,95 +1,97 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="0" failed="0" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-10-08T16:12:49 IST" name="Suite" finished-at="2025-10-08T16:13:05 IST" duration-ms="15842">
+  <suite started-at="2025-11-15T15:57:06 IST" name="Default suite" finished-at="2025-11-15T15:57:06 IST" duration-ms="65">
     <groups>
     </groups>
-    <test started-at="2025-10-08T16:12:49 IST" name="Test" finished-at="2025-10-08T16:13:05 IST" duration-ms="15842">
-      <class name="test_cases.TC003_Verify_Search_button">
-        <test-method is-config="true" signature="SetUp(java.lang.String)[pri:0, instance:test_cases.TC003_Verify_Search_button@421bba99]" started-at="2025-10-08T16:12:58 IST" name="SetUp" finished-at="2025-10-08T16:12:59 IST" duration-ms="1648" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
+    <test started-at="2025-11-15T15:57:06 IST" name="Default test" finished-at="2025-11-15T15:57:06 IST" duration-ms="65">
+      <class name="test_cases.TC006_VerifyMyAccountOptionsDisplays">
+        <test-method is-config="true" signature="SetUp(java.lang.String)[pri:0, instance:test_cases.TC006_VerifyMyAccountOptionsDisplays@77c2494c]" started-at="2025-11-15T15:57:06 IST" name="SetUp" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1763202426482" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeClass on method SetUp but has not been marked @Optional or defined
+in C:\Users\Hp\AppData\Local\Temp\testng-eclipse--254364852\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeClass on method SetUp but has not been marked @Optional or defined
+in C:\Users\Hp\AppData\Local\Temp\testng-eclipse--254364852\testng-customsuite.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:264)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:352)
+at org.testng.internal.Parameters.createParameters(Parameters.java:690)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:163)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:313)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUp -->
-        <test-method signature="Verify_Login_Page()[pri:0, instance:test_cases.TC003_Verify_Search_button@421bba99]" started-at="2025-10-08T16:12:59 IST" name="Verify_Login_Page" finished-at="2025-10-08T16:13:01 IST" duration-ms="2112" status="PASS">
+        <test-method signature="verifyOptions()[pri:0, instance:test_cases.TC006_VerifyMyAccountOptionsDisplays@77c2494c]" started-at="2025-11-15T15:57:06 IST" name="verifyOptions" finished-at="2025-11-15T15:57:06 IST" duration-ms="0" status="SKIP">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeClass on method SetUp but has not been marked @Optional or defined
+in C:\Users\Hp\AppData\Local\Temp\testng-eclipse--254364852\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeClass on method SetUp but has not been marked @Optional or defined
+in C:\Users\Hp\AppData\Local\Temp\testng-eclipse--254364852\testng-customsuite.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:264)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:352)
+at org.testng.internal.Parameters.createParameters(Parameters.java:690)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:163)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:313)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Verify_Login_Page -->
-        <test-method is-config="true" signature="Tearup()[pri:0, instance:test_cases.TC003_Verify_Search_button@421bba99]" started-at="2025-10-08T16:13:01 IST" name="Tearup" finished-at="2025-10-08T16:13:02 IST" duration-ms="198" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Tearup -->
-      </class> <!-- test_cases.TC003_Verify_Search_button -->
-      <class name="test_cases.TC002_loginPage">
-        <test-method is-config="true" signature="SetUp(java.lang.String)[pri:0, instance:test_cases.TC002_loginPage@6ee6f53]" started-at="2025-10-08T16:12:54 IST" name="SetUp" finished-at="2025-10-08T16:12:56 IST" duration-ms="1672" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SetUp -->
-        <test-method signature="Verify_Login_Page()[pri:0, instance:test_cases.TC002_loginPage@6ee6f53]" started-at="2025-10-08T16:12:56 IST" name="Verify_Login_Page" finished-at="2025-10-08T16:12:58 IST" duration-ms="1486" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Verify_Login_Page -->
-        <test-method is-config="true" signature="Tearup()[pri:0, instance:test_cases.TC002_loginPage@6ee6f53]" started-at="2025-10-08T16:12:58 IST" name="Tearup" finished-at="2025-10-08T16:12:58 IST" duration-ms="208" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Tearup -->
-      </class> <!-- test_cases.TC002_loginPage -->
-      <class name="test_cases.TC001_AccountRegistartionTest">
-        <test-method is-config="true" signature="SetUp(java.lang.String)[pri:0, instance:test_cases.TC001_AccountRegistartionTest@6d1ef78d]" started-at="2025-10-08T16:12:50 IST" name="SetUp" finished-at="2025-10-08T16:12:52 IST" duration-ms="2638" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SetUp -->
-        <test-method signature="Verify_Account_RegistartionPage()[pri:0, instance:test_cases.TC001_AccountRegistartionTest@6d1ef78d]" started-at="2025-10-08T16:12:52 IST" name="Verify_Account_RegistartionPage" finished-at="2025-10-08T16:12:54 IST" duration-ms="1960" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Verify_Account_RegistartionPage -->
-        <test-method is-config="true" signature="Tearup()[pri:0, instance:test_cases.TC001_AccountRegistartionTest@6d1ef78d]" started-at="2025-10-08T16:12:54 IST" name="Tearup" finished-at="2025-10-08T16:12:54 IST" duration-ms="218" status="PASS">
+        </test-method> <!-- verifyOptions -->
+        <test-method is-config="true" signature="Tearup()[pri:0, instance:test_cases.TC006_VerifyMyAccountOptionsDisplays@77c2494c]" started-at="2025-11-15T15:57:06 IST" name="Tearup" finished-at="2025-11-15T15:57:06 IST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Tearup -->
-      </class> <!-- test_cases.TC001_AccountRegistartionTest -->
-      <class name="test_cases.TC004_Verify_MouseHover_Component">
-        <test-method is-config="true" signature="SetUp(java.lang.String)[pri:0, instance:test_cases.TC004_Verify_MouseHover_Component@5d12a356]" started-at="2025-10-08T16:13:02 IST" name="SetUp" finished-at="2025-10-08T16:13:03 IST" duration-ms="1733" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SetUp -->
-        <test-method signature="VerifyMouseHover()[pri:0, instance:test_cases.TC004_Verify_MouseHover_Component@5d12a356]" started-at="2025-10-08T16:13:03 IST" name="VerifyMouseHover" finished-at="2025-10-08T16:13:05 IST" duration-ms="1688" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- VerifyMouseHover -->
-        <test-method is-config="true" signature="Tearup()[pri:0, instance:test_cases.TC004_Verify_MouseHover_Component@5d12a356]" started-at="2025-10-08T16:13:05 IST" name="Tearup" finished-at="2025-10-08T16:13:05 IST" duration-ms="219" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Tearup -->
-      </class> <!-- test_cases.TC004_Verify_MouseHover_Component -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+      </class> <!-- test_cases.TC006_VerifyMyAccountOptionsDisplays -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
