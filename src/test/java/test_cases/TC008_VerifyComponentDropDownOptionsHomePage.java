@@ -27,13 +27,13 @@ public class TC008_VerifyComponentDropDownOptionsHomePage extends BaseClass{
 		
 		ComponentDropDown cdd=new ComponentDropDown(driver);
 		cdd.clickOnComponent();
-		Thread.sleep(10);
+		Thread.sleep(20);
 		cdd.sizeOfMonitorDropDown();
-		Thread.sleep(10);
+		Thread.sleep(20);
 		cdd.printComponentDropDownOption();
-		Thread.sleep(10);
+		Thread.sleep(20);
 		cdd.clickOnMonitor();
-		Thread.sleep(10);
+		Thread.sleep(20);
 		String msgCheck=cdd.getValidationMsg();
 		Assert.assertEquals(msgCheck, "Monitors");
 		
