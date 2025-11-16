@@ -1,10 +1,14 @@
 package page_object;
 
+import java.time.Duration;
 import java.util.List;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class ComponentDropDown extends BasePage{
 
@@ -18,8 +22,8 @@ public class ComponentDropDown extends BasePage{
     @FindBy(xpath="//div[@id='content']//h2[text()='Monitors']") WebElement txtValidationMsg;
     
     public void clickOnComponent() {
-    	btnComponent.click();
-    }
+
+    	btnComponent.click();    }
     public void sizeOfMonitorDropDown() {
     	System.out.println("Number od drop-down options in component drop-down :"+ componentDropDownOption.size());
     }

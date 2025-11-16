@@ -26,6 +26,7 @@ public class TC008_VerifyComponentDropDownOptionsHomePage extends BaseClass{
 		lpp.ClickLoginBtn();
 		
 		ComponentDropDown cdd=new ComponentDropDown(driver);
+		Thread.sleep(20);
 		cdd.clickOnComponent();
 		Thread.sleep(20);
 		cdd.sizeOfMonitorDropDown();
