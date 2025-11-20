@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<suite name="Suite">
+<suite name="Suite" parellel="parrel test" thread-count="3">
 
 <listeners>
     <listener class-name="utilities.ExtentReportListener"/>
