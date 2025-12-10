@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<suite name="Suite">
+<suite name="AutomationSuite" parallel="tests" thread-count="3">
 
 <listeners>
     <listener class-name="utilities.ExtentReportListener"/>
@@ -12,6 +12,10 @@
       <class name="test_cases.TC001_AccountRegistartionTest"/>
       <class name="test_cases.TC002_loginPage"/>
       <class name="test_cases.TC003_Verify_Search_button"/>
+      <class name="test_cases.TC004_Verify_MouseHover_Component"/>
+      <class name="test_cases.TC006_VerifyMyAccountOptionsDisplays"/>
+      <class name="test_cases.TC007_VerifyMenuOptionsHomePage"/>
+      <class name="test_cases.TC008_VerifyComponentDropDownOptionsHomePage"/>
     </classes>
   </test> <!-- Test -->
   
@@ -20,7 +24,11 @@
    <classes>
      <class name="test_cases.TC001_AccountRegistartionTest"/>
       <class name="test_cases.TC002_loginPage"/>
-      <class name="test_cases.TC003_Verify_Search_button"/>>
+      <class name="test_cases.TC003_Verify_Search_button"/>
+      <class name="test_cases.TC004_Verify_MouseHover_Component"/>
+      <class name="test_cases.TC006_VerifyMyAccountOptionsDisplays"/>
+      <class name="test_cases.TC007_VerifyMenuOptionsHomePage"/>
+      <class name="test_cases.TC008_VerifyComponentDropDownOptionsHomePage"/>
     </classes>
   </test> <!-- Test -->
   
@@ -30,6 +38,10 @@
       <class name="test_cases.TC001_AccountRegistartionTest"/>
       <class name="test_cases.TC002_loginPage"/>
       <class name="test_cases.TC003_Verify_Search_button"/>
+      <class name="test_cases.TC004_Verify_MouseHover_Component"/>
+      <class name="test_cases.TC006_VerifyMyAccountOptionsDisplays"/>
+      <class name="test_cases.TC007_VerifyMenuOptionsHomePage"/>
+      <class name="test_cases.TC008_VerifyComponentDropDownOptionsHomePage"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

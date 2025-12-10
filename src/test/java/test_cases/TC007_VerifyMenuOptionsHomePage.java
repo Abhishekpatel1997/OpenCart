@@ -16,15 +16,15 @@ public class TC007_VerifyMenuOptionsHomePage extends BaseClass{
 
 	@Test
 	public void verifyOptions() throws Exception {
-		HomePage hpp=new HomePage(driver);
+		HomePage hpp=new HomePage(getDriver());
 		hpp.myAccountButton();
 		hpp.loginPage();
-		LoginPage lpp=new LoginPage(driver);
+		LoginPage lpp=new LoginPage(getDriver());
 		lpp.EnterEmail("divsingh865@gmail.com");
 		lpp.EnterPassword("Blacklist");
 		lpp.ClickLoginBtn();
 		
-		MenuOptions mo=new MenuOptions(driver);
+		MenuOptions mo=new MenuOptions(getDriver());
 		mo.sizeMenuOptions();
 		Assert.assertEquals(8, 8);
 		

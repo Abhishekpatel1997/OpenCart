@@ -12,21 +12,21 @@ public class TC003_Verify_Search_button extends BaseClass{
 	@Test
 	public void Verify_Login_Page() throws Exception 
 	{
-	HomePage hp=new HomePage(driver);
+	HomePage hp=new HomePage(getDriver());
 	hp.myAccountButton();
 	hp.loginPage();
 		
 		
-	LoginPage lp=new LoginPage(driver);
+	LoginPage lp=new LoginPage(getDriver());
 	lp.EnterEmail("divsingh865@gmail.com");
 	lp.EnterPassword("Blacklist");
 	lp.ClickLoginBtn();
 	
 	Thread.sleep(1000);
-	MyAccountPage mc=new MyAccountPage(driver);
+	MyAccountPage mc=new MyAccountPage(getDriver());
 	mc.SearchItem("iphoneeapple");
 	mc.Searchbtn();
-	screenShot();
+	//screenShot();
 	
 	boolean cnfGetProduct=mc.GetProduct();
 	Assert.assertEquals(cnfGetProduct, true);
