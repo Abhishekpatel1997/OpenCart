@@ -1,97 +1,778 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="0" failed="0" skipped="1">
+<testng-results ignored="0" total="21" passed="20" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-11-15T15:57:06 IST" name="Default suite" finished-at="2025-11-15T15:57:06 IST" duration-ms="65">
+  <suite started-at="2025-12-10T12:35:10 IST" name="AutomationSuite" finished-at="2025-12-10T12:36:56 IST" duration-ms="105916">
     <groups>
     </groups>
-    <test started-at="2025-11-15T15:57:06 IST" name="Default test" finished-at="2025-11-15T15:57:06 IST" duration-ms="65">
-      <class name="test_cases.TC006_VerifyMyAccountOptionsDisplays">
-        <test-method is-config="true" signature="SetUp(java.lang.String)[pri:0, instance:test_cases.TC006_VerifyMyAccountOptionsDisplays@77c2494c]" started-at="2025-11-15T15:57:06 IST" name="SetUp" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1763202426482" status="FAIL">
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Parameter 'browser' is required by BeforeClass on method SetUp but has not been marked @Optional or defined
-in C:\Users\Hp\AppData\Local\Temp\testng-eclipse--254364852\testng-customsuite.xml]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Parameter 'browser' is required by BeforeClass on method SetUp but has not been marked @Optional or defined
-in C:\Users\Hp\AppData\Local\Temp\testng-eclipse--254364852\testng-customsuite.xml
-at org.testng.internal.Parameters.createParams(Parameters.java:264)
-at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:352)
-at org.testng.internal.Parameters.createParameters(Parameters.java:690)
-at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:163)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:313)
-at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
+    <test started-at="2025-12-10T12:35:10 IST" name="ChromeTest" finished-at="2025-12-10T12:36:16 IST" duration-ms="65301">
+      <class name="test_cases.TC003_Verify_Search_button">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.reflect.Method)[pri:0, instance:test_cases.TC003_Verify_Search_button@2c78324b]" started-at="2025-12-10T12:35:33 IST" name="setup" finished-at="2025-12-10T12:35:35 IST" duration-ms="2155" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void test_cases.TC003_Verify_Search_button.Verify_Login_Page() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- SetUp -->
-        <test-method signature="verifyOptions()[pri:0, instance:test_cases.TC006_VerifyMyAccountOptionsDisplays@77c2494c]" started-at="2025-11-15T15:57:06 IST" name="verifyOptions" finished-at="2025-11-15T15:57:06 IST" duration-ms="0" status="SKIP">
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Parameter 'browser' is required by BeforeClass on method SetUp but has not been marked @Optional or defined
-in C:\Users\Hp\AppData\Local\Temp\testng-eclipse--254364852\testng-customsuite.xml]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Parameter 'browser' is required by BeforeClass on method SetUp but has not been marked @Optional or defined
-in C:\Users\Hp\AppData\Local\Temp\testng-eclipse--254364852\testng-customsuite.xml
-at org.testng.internal.Parameters.createParams(Parameters.java:264)
-at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:352)
-at org.testng.internal.Parameters.createParameters(Parameters.java:690)
-at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:163)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:313)
-at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
+        </test-method> <!-- setup -->
+        <test-method signature="Verify_Login_Page()[pri:0, instance:test_cases.TC003_Verify_Search_button@2c78324b]" started-at="2025-12-10T12:35:35 IST" name="Verify_Login_Page" finished-at="2025-12-10T12:35:41 IST" duration-ms="6550" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Login_Page -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:test_cases.TC003_Verify_Search_button@2c78324b]" started-at="2025-12-10T12:35:41 IST" name="tearDown" finished-at="2025-12-10T12:35:42 IST" duration-ms="306" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Verify_Login_Page status=SUCCESS method=TC003_Verify_Search_button.Verify_Login_Page()[pri:0, instance:test_cases.TC003_Verify_Search_button@2c78324b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test_cases.TC003_Verify_Search_button -->
+      <class name="test_cases.TC008_VerifyComponentDropDownOptionsHomePage">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.reflect.Method)[pri:0, instance:test_cases.TC008_VerifyComponentDropDownOptionsHomePage@238d68ff]" started-at="2025-12-10T12:36:08 IST" name="setup" finished-at="2025-12-10T12:36:10 IST" duration-ms="2190" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void test_cases.TC008_VerifyComponentDropDownOptionsHomePage.verifyOptions() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyOptions()[pri:0, instance:test_cases.TC008_VerifyComponentDropDownOptionsHomePage@238d68ff]" started-at="2025-12-10T12:36:10 IST" name="verifyOptions" finished-at="2025-12-10T12:36:15 IST" duration-ms="5052" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyOptions -->
-        <test-method is-config="true" signature="Tearup()[pri:0, instance:test_cases.TC006_VerifyMyAccountOptionsDisplays@77c2494c]" started-at="2025-11-15T15:57:06 IST" name="Tearup" finished-at="2025-11-15T15:57:06 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:test_cases.TC008_VerifyComponentDropDownOptionsHomePage@238d68ff]" started-at="2025-12-10T12:36:15 IST" name="tearDown" finished-at="2025-12-10T12:36:16 IST" duration-ms="185" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyOptions status=SUCCESS method=TC008_VerifyComponentDropDownOptionsHomePage.verifyOptions()[pri:0, instance:test_cases.TC008_VerifyComponentDropDownOptionsHomePage@238d68ff] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Tearup -->
+        </test-method> <!-- tearDown -->
+      </class> <!-- test_cases.TC008_VerifyComponentDropDownOptionsHomePage -->
+      <class name="test_cases.TC002_loginPage">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.reflect.Method)[pri:0, instance:test_cases.TC002_loginPage@54e041a4]" started-at="2025-12-10T12:35:24 IST" name="setup" finished-at="2025-12-10T12:35:29 IST" duration-ms="4706" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void test_cases.TC002_loginPage.Verify_Login_Page()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Verify_Login_Page()[pri:0, instance:test_cases.TC002_loginPage@54e041a4]" started-at="2025-12-10T12:35:29 IST" name="Verify_Login_Page" finished-at="2025-12-10T12:35:32 IST" duration-ms="3002" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Login_Page -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:test_cases.TC002_loginPage@54e041a4]" started-at="2025-12-10T12:35:32 IST" name="tearDown" finished-at="2025-12-10T12:35:33 IST" duration-ms="1143" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Verify_Login_Page status=SUCCESS method=TC002_loginPage.Verify_Login_Page()[pri:0, instance:test_cases.TC002_loginPage@54e041a4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test_cases.TC002_loginPage -->
+      <class name="test_cases.TC001_AccountRegistartionTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.reflect.Method)[pri:0, instance:test_cases.TC001_AccountRegistartionTest@2eea88a1]" started-at="2025-12-10T12:35:10 IST" name="setup" finished-at="2025-12-10T12:35:17 IST" duration-ms="6919" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void test_cases.TC001_AccountRegistartionTest.Verify_Account_RegistartionPage() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Verify_Account_RegistartionPage()[pri:0, instance:test_cases.TC001_AccountRegistartionTest@2eea88a1]" started-at="2025-12-10T12:35:17 IST" name="Verify_Account_RegistartionPage" finished-at="2025-12-10T12:35:23 IST" duration-ms="6016" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Account_RegistartionPage -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:test_cases.TC001_AccountRegistartionTest@2eea88a1]" started-at="2025-12-10T12:35:23 IST" name="tearDown" finished-at="2025-12-10T12:35:24 IST" duration-ms="525" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Verify_Account_RegistartionPage status=SUCCESS method=TC001_AccountRegistartionTest.Verify_Account_RegistartionPage()[pri:0, instance:test_cases.TC001_AccountRegistartionTest@2eea88a1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test_cases.TC001_AccountRegistartionTest -->
+      <class name="test_cases.TC004_Verify_MouseHover_Component">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.reflect.Method)[pri:0, instance:test_cases.TC004_Verify_MouseHover_Component@79defdc]" started-at="2025-12-10T12:35:42 IST" name="setup" finished-at="2025-12-10T12:35:47 IST" duration-ms="4775" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void test_cases.TC004_Verify_MouseHover_Component.VerifyMouseHover() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="VerifyMouseHover()[pri:0, instance:test_cases.TC004_Verify_MouseHover_Component@79defdc]" started-at="2025-12-10T12:35:47 IST" name="VerifyMouseHover" finished-at="2025-12-10T12:35:49 IST" duration-ms="2382" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyMouseHover -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:test_cases.TC004_Verify_MouseHover_Component@79defdc]" started-at="2025-12-10T12:35:49 IST" name="tearDown" finished-at="2025-12-10T12:35:51 IST" duration-ms="2024" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyMouseHover status=SUCCESS method=TC004_Verify_MouseHover_Component.VerifyMouseHover()[pri:0, instance:test_cases.TC004_Verify_MouseHover_Component@79defdc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test_cases.TC004_Verify_MouseHover_Component -->
+      <class name="test_cases.TC006_VerifyMyAccountOptionsDisplays">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.reflect.Method)[pri:0, instance:test_cases.TC006_VerifyMyAccountOptionsDisplays@18317edc]" started-at="2025-12-10T12:35:51 IST" name="setup" finished-at="2025-12-10T12:35:55 IST" duration-ms="4280" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void test_cases.TC006_VerifyMyAccountOptionsDisplays.verifyOptions() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyOptions()[pri:0, instance:test_cases.TC006_VerifyMyAccountOptionsDisplays@18317edc]" started-at="2025-12-10T12:35:55 IST" name="verifyOptions" finished-at="2025-12-10T12:35:59 IST" duration-ms="3808" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyOptions -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:test_cases.TC006_VerifyMyAccountOptionsDisplays@18317edc]" started-at="2025-12-10T12:35:59 IST" name="tearDown" finished-at="2025-12-10T12:35:59 IST" duration-ms="399" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyOptions status=SUCCESS method=TC006_VerifyMyAccountOptionsDisplays.verifyOptions()[pri:0, instance:test_cases.TC006_VerifyMyAccountOptionsDisplays@18317edc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
       </class> <!-- test_cases.TC006_VerifyMyAccountOptionsDisplays -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="test_cases.TC007_VerifyMenuOptionsHomePage">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.reflect.Method)[pri:0, instance:test_cases.TC007_VerifyMenuOptionsHomePage@4e0ae11f]" started-at="2025-12-10T12:35:59 IST" name="setup" finished-at="2025-12-10T12:36:04 IST" duration-ms="4803" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void test_cases.TC007_VerifyMenuOptionsHomePage.verifyOptions() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyOptions()[pri:0, instance:test_cases.TC007_VerifyMenuOptionsHomePage@4e0ae11f]" started-at="2025-12-10T12:36:04 IST" name="verifyOptions" finished-at="2025-12-10T12:36:08 IST" duration-ms="3723" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyOptions -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:test_cases.TC007_VerifyMenuOptionsHomePage@4e0ae11f]" started-at="2025-12-10T12:36:08 IST" name="tearDown" finished-at="2025-12-10T12:36:08 IST" duration-ms="230" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyOptions status=SUCCESS method=TC007_VerifyMenuOptionsHomePage.verifyOptions()[pri:0, instance:test_cases.TC007_VerifyMenuOptionsHomePage@4e0ae11f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test_cases.TC007_VerifyMenuOptionsHomePage -->
+    </test> <!-- ChromeTest -->
+    <test started-at="2025-12-10T12:35:10 IST" name="EdgeTest" finished-at="2025-12-10T12:36:25 IST" duration-ms="74374">
+      <class name="test_cases.TC003_Verify_Search_button">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.reflect.Method)[pri:0, instance:test_cases.TC003_Verify_Search_button@3b5fad2d]" started-at="2025-12-10T12:35:39 IST" name="setup" finished-at="2025-12-10T12:35:43 IST" duration-ms="3805" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void test_cases.TC003_Verify_Search_button.Verify_Login_Page() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Verify_Login_Page()[pri:0, instance:test_cases.TC003_Verify_Search_button@3b5fad2d]" started-at="2025-12-10T12:35:43 IST" name="Verify_Login_Page" finished-at="2025-12-10T12:35:49 IST" duration-ms="5741" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Login_Page -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:test_cases.TC003_Verify_Search_button@3b5fad2d]" started-at="2025-12-10T12:35:49 IST" name="tearDown" finished-at="2025-12-10T12:35:49 IST" duration-ms="498" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Verify_Login_Page status=SUCCESS method=TC003_Verify_Search_button.Verify_Login_Page()[pri:0, instance:test_cases.TC003_Verify_Search_button@3b5fad2d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test_cases.TC003_Verify_Search_button -->
+      <class name="test_cases.TC008_VerifyComponentDropDownOptionsHomePage">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.reflect.Method)[pri:0, instance:test_cases.TC008_VerifyComponentDropDownOptionsHomePage@102cec62]" started-at="2025-12-10T12:36:17 IST" name="setup" finished-at="2025-12-10T12:36:21 IST" duration-ms="4470" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void test_cases.TC008_VerifyComponentDropDownOptionsHomePage.verifyOptions() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyOptions()[pri:0, instance:test_cases.TC008_VerifyComponentDropDownOptionsHomePage@102cec62]" started-at="2025-12-10T12:36:21 IST" name="verifyOptions" finished-at="2025-12-10T12:36:24 IST" duration-ms="3171" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyOptions -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:test_cases.TC008_VerifyComponentDropDownOptionsHomePage@102cec62]" started-at="2025-12-10T12:36:24 IST" name="tearDown" finished-at="2025-12-10T12:36:25 IST" duration-ms="301" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyOptions status=SUCCESS method=TC008_VerifyComponentDropDownOptionsHomePage.verifyOptions()[pri:0, instance:test_cases.TC008_VerifyComponentDropDownOptionsHomePage@102cec62] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test_cases.TC008_VerifyComponentDropDownOptionsHomePage -->
+      <class name="test_cases.TC002_loginPage">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.reflect.Method)[pri:0, instance:test_cases.TC002_loginPage@6531a794]" started-at="2025-12-10T12:35:30 IST" name="setup" finished-at="2025-12-10T12:35:33 IST" duration-ms="3237" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void test_cases.TC002_loginPage.Verify_Login_Page()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Verify_Login_Page()[pri:0, instance:test_cases.TC002_loginPage@6531a794]" started-at="2025-12-10T12:35:33 IST" name="Verify_Login_Page" finished-at="2025-12-10T12:35:39 IST" duration-ms="5342" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Login_Page -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:test_cases.TC002_loginPage@6531a794]" started-at="2025-12-10T12:35:39 IST" name="tearDown" finished-at="2025-12-10T12:35:39 IST" duration-ms="431" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Verify_Login_Page status=SUCCESS method=TC002_loginPage.Verify_Login_Page()[pri:0, instance:test_cases.TC002_loginPage@6531a794] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test_cases.TC002_loginPage -->
+      <class name="test_cases.TC001_AccountRegistartionTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.reflect.Method)[pri:0, instance:test_cases.TC001_AccountRegistartionTest@2dc9b0f5]" started-at="2025-12-10T12:35:10 IST" name="setup" finished-at="2025-12-10T12:35:24 IST" duration-ms="14100" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void test_cases.TC001_AccountRegistartionTest.Verify_Account_RegistartionPage() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Verify_Account_RegistartionPage()[pri:0, instance:test_cases.TC001_AccountRegistartionTest@2dc9b0f5]" started-at="2025-12-10T12:35:24 IST" name="Verify_Account_RegistartionPage" finished-at="2025-12-10T12:35:30 IST" duration-ms="5129" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Account_RegistartionPage -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:test_cases.TC001_AccountRegistartionTest@2dc9b0f5]" started-at="2025-12-10T12:35:30 IST" name="tearDown" finished-at="2025-12-10T12:35:30 IST" duration-ms="428" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Verify_Account_RegistartionPage status=SUCCESS method=TC001_AccountRegistartionTest.Verify_Account_RegistartionPage()[pri:0, instance:test_cases.TC001_AccountRegistartionTest@2dc9b0f5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test_cases.TC001_AccountRegistartionTest -->
+      <class name="test_cases.TC004_Verify_MouseHover_Component">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.reflect.Method)[pri:0, instance:test_cases.TC004_Verify_MouseHover_Component@5e17553a]" started-at="2025-12-10T12:35:49 IST" name="setup" finished-at="2025-12-10T12:35:54 IST" duration-ms="4689" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void test_cases.TC004_Verify_MouseHover_Component.VerifyMouseHover() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="VerifyMouseHover()[pri:0, instance:test_cases.TC004_Verify_MouseHover_Component@5e17553a]" started-at="2025-12-10T12:35:54 IST" name="VerifyMouseHover" finished-at="2025-12-10T12:35:57 IST" duration-ms="2901" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyMouseHover -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:test_cases.TC004_Verify_MouseHover_Component@5e17553a]" started-at="2025-12-10T12:35:57 IST" name="tearDown" finished-at="2025-12-10T12:35:57 IST" duration-ms="298" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyMouseHover status=SUCCESS method=TC004_Verify_MouseHover_Component.VerifyMouseHover()[pri:0, instance:test_cases.TC004_Verify_MouseHover_Component@5e17553a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test_cases.TC004_Verify_MouseHover_Component -->
+      <class name="test_cases.TC006_VerifyMyAccountOptionsDisplays">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.reflect.Method)[pri:0, instance:test_cases.TC006_VerifyMyAccountOptionsDisplays@3eb91815]" started-at="2025-12-10T12:35:57 IST" name="setup" finished-at="2025-12-10T12:36:01 IST" duration-ms="4267" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void test_cases.TC006_VerifyMyAccountOptionsDisplays.verifyOptions() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyOptions()[pri:0, instance:test_cases.TC006_VerifyMyAccountOptionsDisplays@3eb91815]" started-at="2025-12-10T12:36:01 IST" name="verifyOptions" finished-at="2025-12-10T12:36:04 IST" duration-ms="2852" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyOptions -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:test_cases.TC006_VerifyMyAccountOptionsDisplays@3eb91815]" started-at="2025-12-10T12:36:04 IST" name="tearDown" finished-at="2025-12-10T12:36:05 IST" duration-ms="560" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyOptions status=SUCCESS method=TC006_VerifyMyAccountOptionsDisplays.verifyOptions()[pri:0, instance:test_cases.TC006_VerifyMyAccountOptionsDisplays@3eb91815] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test_cases.TC006_VerifyMyAccountOptionsDisplays -->
+      <class name="test_cases.TC007_VerifyMenuOptionsHomePage">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.reflect.Method)[pri:0, instance:test_cases.TC007_VerifyMenuOptionsHomePage@56dc1551]" started-at="2025-12-10T12:36:05 IST" name="setup" finished-at="2025-12-10T12:36:14 IST" duration-ms="9515" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void test_cases.TC007_VerifyMenuOptionsHomePage.verifyOptions() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyOptions()[pri:0, instance:test_cases.TC007_VerifyMenuOptionsHomePage@56dc1551]" started-at="2025-12-10T12:36:14 IST" name="verifyOptions" finished-at="2025-12-10T12:36:16 IST" duration-ms="2280" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyOptions -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:test_cases.TC007_VerifyMenuOptionsHomePage@56dc1551]" started-at="2025-12-10T12:36:16 IST" name="tearDown" finished-at="2025-12-10T12:36:17 IST" duration-ms="285" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyOptions status=SUCCESS method=TC007_VerifyMenuOptionsHomePage.verifyOptions()[pri:0, instance:test_cases.TC007_VerifyMenuOptionsHomePage@56dc1551] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test_cases.TC007_VerifyMenuOptionsHomePage -->
+    </test> <!-- EdgeTest -->
+    <test started-at="2025-12-10T12:35:10 IST" name="FireTest" finished-at="2025-12-10T12:36:56 IST" duration-ms="105916">
+      <class name="test_cases.TC003_Verify_Search_button">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.reflect.Method)[pri:0, instance:test_cases.TC003_Verify_Search_button@43015c69]" started-at="2025-12-10T12:35:46 IST" name="setup" finished-at="2025-12-10T12:35:53 IST" duration-ms="6752" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void test_cases.TC003_Verify_Search_button.Verify_Login_Page() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Verify_Login_Page()[pri:0, instance:test_cases.TC003_Verify_Search_button@43015c69]" started-at="2025-12-10T12:35:53 IST" name="Verify_Login_Page" finished-at="2025-12-10T12:35:57 IST" duration-ms="4058" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Login_Page -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:test_cases.TC003_Verify_Search_button@43015c69]" started-at="2025-12-10T12:35:57 IST" name="tearDown" finished-at="2025-12-10T12:35:59 IST" duration-ms="2334" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Verify_Login_Page status=SUCCESS method=TC003_Verify_Search_button.Verify_Login_Page()[pri:0, instance:test_cases.TC003_Verify_Search_button@43015c69] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test_cases.TC003_Verify_Search_button -->
+      <class name="test_cases.TC008_VerifyComponentDropDownOptionsHomePage">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.reflect.Method)[pri:0, instance:test_cases.TC008_VerifyComponentDropDownOptionsHomePage@791d1f8b]" started-at="2025-12-10T12:36:47 IST" name="setup" finished-at="2025-12-10T12:36:52 IST" duration-ms="5838" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void test_cases.TC008_VerifyComponentDropDownOptionsHomePage.verifyOptions() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyOptions()[pri:0, instance:test_cases.TC008_VerifyComponentDropDownOptionsHomePage@791d1f8b]" started-at="2025-12-10T12:36:52 IST" name="verifyOptions" finished-at="2025-12-10T12:36:55 IST" duration-ms="2686" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyOptions -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:test_cases.TC008_VerifyComponentDropDownOptionsHomePage@791d1f8b]" started-at="2025-12-10T12:36:55 IST" name="tearDown" finished-at="2025-12-10T12:36:56 IST" duration-ms="1205" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyOptions status=SUCCESS method=TC008_VerifyComponentDropDownOptionsHomePage.verifyOptions()[pri:0, instance:test_cases.TC008_VerifyComponentDropDownOptionsHomePage@791d1f8b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test_cases.TC008_VerifyComponentDropDownOptionsHomePage -->
+      <class name="test_cases.TC002_loginPage">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.reflect.Method)[pri:0, instance:test_cases.TC002_loginPage@34b9f960]" started-at="2025-12-10T12:35:31 IST" name="setup" finished-at="2025-12-10T12:35:41 IST" duration-ms="10807" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void test_cases.TC002_loginPage.Verify_Login_Page()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Verify_Login_Page()[pri:0, instance:test_cases.TC002_loginPage@34b9f960]" started-at="2025-12-10T12:35:41 IST" name="Verify_Login_Page" finished-at="2025-12-10T12:35:45 IST" duration-ms="3323" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Login_Page -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:test_cases.TC002_loginPage@34b9f960]" started-at="2025-12-10T12:35:45 IST" name="tearDown" finished-at="2025-12-10T12:35:46 IST" duration-ms="1668" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Verify_Login_Page status=SUCCESS method=TC002_loginPage.Verify_Login_Page()[pri:0, instance:test_cases.TC002_loginPage@34b9f960] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test_cases.TC002_loginPage -->
+      <class name="test_cases.TC001_AccountRegistartionTest">
+        <test-method is-config="true" signature="startReport()[pri:0, instance:test_cases.TC001_AccountRegistartionTest@27912e3]" started-at="2025-12-10T12:35:10 IST" name="startReport" finished-at="2025-12-10T12:35:10 IST" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.reflect.Method)[pri:0, instance:test_cases.TC001_AccountRegistartionTest@27912e3]" started-at="2025-12-10T12:35:10 IST" name="setup" finished-at="2025-12-10T12:35:24 IST" duration-ms="13386" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void test_cases.TC001_AccountRegistartionTest.Verify_Account_RegistartionPage() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Verify_Account_RegistartionPage()[pri:0, instance:test_cases.TC001_AccountRegistartionTest@27912e3]" started-at="2025-12-10T12:35:24 IST" name="Verify_Account_RegistartionPage" finished-at="2025-12-10T12:35:29 IST" duration-ms="4896" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Account_RegistartionPage -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:test_cases.TC001_AccountRegistartionTest@27912e3]" started-at="2025-12-10T12:35:29 IST" name="tearDown" finished-at="2025-12-10T12:35:31 IST" duration-ms="1854" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Verify_Account_RegistartionPage status=SUCCESS method=TC001_AccountRegistartionTest.Verify_Account_RegistartionPage()[pri:0, instance:test_cases.TC001_AccountRegistartionTest@27912e3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:test_cases.TC001_AccountRegistartionTest@27912e3]" started-at="2025-12-10T12:36:56 IST" name="endReport" finished-at="2025-12-10T12:36:56 IST" duration-ms="56" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- test_cases.TC001_AccountRegistartionTest -->
+      <class name="test_cases.TC004_Verify_MouseHover_Component">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.reflect.Method)[pri:0, instance:test_cases.TC004_Verify_MouseHover_Component@19b89d4]" started-at="2025-12-10T12:35:59 IST" name="setup" finished-at="2025-12-10T12:36:10 IST" duration-ms="10920" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void test_cases.TC004_Verify_MouseHover_Component.VerifyMouseHover() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="VerifyMouseHover()[pri:0, instance:test_cases.TC004_Verify_MouseHover_Component@19b89d4]" started-at="2025-12-10T12:36:10 IST" name="VerifyMouseHover" finished-at="2025-12-10T12:36:22 IST" duration-ms="11398" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: //h2[normalize-space()='Monitors']
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.35.0', revision: '1c58e5028b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [9f47f16a-63c2-4b64-97ba-9f8dcae03902, findElement {value=//h2[normalize-space()='Monitors'], using=xpath}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 143.0.1, moz:accessibilityChecks: false, moz:buildID: 20250918214338, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 14820, moz:profile: C:\Users\Hp\AppData\Local\T..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 9f47f16a-63c2-4b64-97ba-9f8dcae03902]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: //h2[normalize-space()='Monitors']
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.35.0', revision: '1c58e5028b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [9f47f16a-63c2-4b64-97ba-9f8dcae03902, findElement {value=//h2[normalize-space()='Monitors'], using=xpath}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 143.0.1, moz:accessibilityChecks: false, moz:buildID: 20250918214338, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 14820, moz:profile: C:\Users\Hp\AppData\Local\T..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 9f47f16a-63c2-4b64-97ba-9f8dcae03902
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:557)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:380)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy17.getText(Unknown Source)
+at page_object.ComponentPage.cnfMonMsg(ComponentPage.java:27)
+at test_cases.TC004_Verify_MouseHover_Component.VerifyMouseHover(TC004_Verify_MouseHover_Component.java:17)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyMouseHover -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:test_cases.TC004_Verify_MouseHover_Component@19b89d4]" started-at="2025-12-10T12:36:22 IST" name="tearDown" finished-at="2025-12-10T12:36:23 IST" duration-ms="1184" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyMouseHover status=FAILURE method=TC004_Verify_MouseHover_Component.VerifyMouseHover()[pri:0, instance:test_cases.TC004_Verify_MouseHover_Component@19b89d4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test_cases.TC004_Verify_MouseHover_Component -->
+      <class name="test_cases.TC006_VerifyMyAccountOptionsDisplays">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.reflect.Method)[pri:0, instance:test_cases.TC006_VerifyMyAccountOptionsDisplays@4bbf6d0e]" started-at="2025-12-10T12:36:23 IST" name="setup" finished-at="2025-12-10T12:36:29 IST" duration-ms="6178" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void test_cases.TC006_VerifyMyAccountOptionsDisplays.verifyOptions() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyOptions()[pri:0, instance:test_cases.TC006_VerifyMyAccountOptionsDisplays@4bbf6d0e]" started-at="2025-12-10T12:36:29 IST" name="verifyOptions" finished-at="2025-12-10T12:36:31 IST" duration-ms="1853" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyOptions -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:test_cases.TC006_VerifyMyAccountOptionsDisplays@4bbf6d0e]" started-at="2025-12-10T12:36:31 IST" name="tearDown" finished-at="2025-12-10T12:36:32 IST" duration-ms="1126" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyOptions status=SUCCESS method=TC006_VerifyMyAccountOptionsDisplays.verifyOptions()[pri:0, instance:test_cases.TC006_VerifyMyAccountOptionsDisplays@4bbf6d0e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test_cases.TC006_VerifyMyAccountOptionsDisplays -->
+      <class name="test_cases.TC007_VerifyMenuOptionsHomePage">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.reflect.Method)[pri:0, instance:test_cases.TC007_VerifyMenuOptionsHomePage@30b6ffe0]" started-at="2025-12-10T12:36:32 IST" name="setup" finished-at="2025-12-10T12:36:43 IST" duration-ms="11137" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void test_cases.TC007_VerifyMenuOptionsHomePage.verifyOptions() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyOptions()[pri:0, instance:test_cases.TC007_VerifyMenuOptionsHomePage@30b6ffe0]" started-at="2025-12-10T12:36:43 IST" name="verifyOptions" finished-at="2025-12-10T12:36:45 IST" duration-ms="1988" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyOptions -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:test_cases.TC007_VerifyMenuOptionsHomePage@30b6ffe0]" started-at="2025-12-10T12:36:45 IST" name="tearDown" finished-at="2025-12-10T12:36:47 IST" duration-ms="1084" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyOptions status=SUCCESS method=TC007_VerifyMenuOptionsHomePage.verifyOptions()[pri:0, instance:test_cases.TC007_VerifyMenuOptionsHomePage@30b6ffe0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test_cases.TC007_VerifyMenuOptionsHomePage -->
+    </test> <!-- FireTest -->
+  </suite> <!-- AutomationSuite -->
 </testng-results>

@@ -20,12 +20,12 @@ public class TC005_VerifyAllLinks extends BaseClass {
 	@Test
 	public void Verify_Login_Page() throws IOException 
 	{
-	HomePage hp=new HomePage(driver);
+	HomePage hp=new HomePage(getDriver());
 	hp.myAccountButton();
 	hp.loginPage();
 		
 		
-	LoginPage lp=new LoginPage(driver);
+	LoginPage lp=new LoginPage(getDriver());
 	lp.EnterEmail("divsingh865@gmail.com");
 	lp.EnterPassword("Blacklist");
 	lp.ClickLoginBtn();
