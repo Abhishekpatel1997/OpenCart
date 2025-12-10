@@ -39,7 +39,7 @@ public class ExtentReportListener implements ITestListener {
         testThread.get().log(Status.FAIL, "Test Failed: " + result.getThrowable());
 
         BaseClass baseClass = new BaseClass();
-        WebDriver driver = baseClass.driver;
+        WebDriver driver = baseClass.getDriver();
         if (driver != null) {
             try {
                 // Screenshot path

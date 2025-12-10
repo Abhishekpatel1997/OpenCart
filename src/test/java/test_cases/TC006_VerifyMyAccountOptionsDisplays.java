@@ -15,19 +15,19 @@ public class TC006_VerifyMyAccountOptionsDisplays extends BaseClass{
 
 	@Test
 	public void verifyOptions() throws Exception {
-		HomePage hpp=new HomePage(driver);
+		HomePage hpp=new HomePage(getDriver());
 		hpp.myAccountButton();
 		hpp.loginPage();
-		LoginPage lpp=new LoginPage(driver);
+		LoginPage lpp=new LoginPage(getDriver());
 		lpp.EnterEmail("divsingh865@gmail.com");
 		lpp.EnterPassword("Blacklist");
 		lpp.ClickLoginBtn();
 		
-		MyAccountOptionsDisplay mcp=new MyAccountOptionsDisplay(driver);
+		MyAccountOptionsDisplay mcp=new MyAccountOptionsDisplay(getDriver());
 		mcp.sizeOfOptions();
-		screenShot();
+		//screenShot();
 		Assert.assertEquals(4, 4);
-		screenShot();
+		//screenShot();
 		mcp.optionPrint();
 		List<String> Ao=mcp.actualOptions();
 		List<String> expectedList = Arrays.asList(

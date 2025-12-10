@@ -20,13 +20,13 @@ public class TC001_AccountRegistartionTest extends BaseClass {
 	
 	@Test
 	public void Verify_Account_RegistartionPage() throws Exception {
-		HomePage hm=new HomePage(driver);
-		screenShot();
+		HomePage hm=new HomePage(getDriver());
+		//screenShot();
 		hm.myAccountButton();
 		
 		hm.registationButton();
 		
-		RegistrationPage rp=new RegistrationPage(driver);
+		RegistrationPage rp=new RegistrationPage(getDriver());
 		rp.FirstName("koyal"+randomString());
 		rp.LastName("Parashar p"+ randomString());
 		rp.Email(randomAlphaNumeric()+"@gmail.com");
@@ -43,7 +43,7 @@ public class TC001_AccountRegistartionTest extends BaseClass {
 		rp.CheckBox();
 		rp.ContinueButton();
 		
-		screenShot();
+		//screenShot();
 		
 		String msgc=rp.GetConfirmMsg();
 		Assert.assertEquals(msgc, "Your Account Has Been Created!");

@@ -10,7 +10,7 @@ public class TC004_Verify_MouseHover_Component extends BaseClass{
 
 	@Test
 	public void VerifyMouseHover() throws InterruptedException {
-		ComponentPage cm=new ComponentPage(driver);
+		ComponentPage cm=new ComponentPage(getDriver());
 		Thread.sleep(1000);
 		cm.hoverAndClickSubmenu();
 		
